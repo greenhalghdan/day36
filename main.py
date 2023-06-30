@@ -6,10 +6,8 @@ mediastackurl = "http://api.mediastack.com/v1/news?"
 account_sid = "###################"
 auth_token = "################"
 
-
 import requests
 from twilio.rest import Client
-
 def getnews():
     mediastackparams = {
         "keywords": COMPANY_NAME,
